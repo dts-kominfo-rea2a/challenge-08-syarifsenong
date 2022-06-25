@@ -1,0 +1,49 @@
+body {
+  background: lightblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#app {
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 7px;
+  background: whitesmoke;
+  width: fit-content;
+}
+
+#todo-title {
+  background: lightblue;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 7px;
+  padding: 5px 0;
+  margin-bottom: 30px;
+}
+
+#todo-subtitle {
+  margin-bottom: 10px;
+}
+
+#todo-input {
+  height: 25px;
+  border-radius: 7px;
+  border: solid lightblue;
+}
+
+#todo-submit {
+  height: 30px;
+  border-radius: 7px;
+  background: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+#todo-input:hover,
+#todo-submit:hover {
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.24), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+#todo-output li {
+  text-align: left;
+}
